@@ -4,6 +4,7 @@ Based on the content of the image, this AI tool determines which hashtags are cu
 #**Getting Started**
 
 Google collab is sufficient to get started.
+
 #**Pre-requisites**
 Packages that are required are :
 •	numpy 
