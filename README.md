@@ -10,11 +10,11 @@ Packages that are required are :
 
 *•	numpy
 
-•	*pandas 
+*•	pandas 
 
-•	*matplotlib.pyplot 
+*•	matplotlib.pyplot 
 
-•	*matplotlib.image 
+*•	matplotlib.image 
 
 *•	PIL.Image 
 
