@@ -68,4 +68,5 @@ Packages that are required are :
 *•	Image from PIL
 
 #**How It Works**
+
 The project involved scraping few Instagram images with some general hashtags like travel, fitness, etc., and storing the images in a folder named data and their details in a separate json file in a metadata folder. Hashtags from comments were also collected for modeling. Deep features were extracted from each image using MobileNetV2 and stored in a separate file. ALS model was applied to hashtag data to extract user and item features, and the dot product of each combination of features represented a recommendation score. The ALS model was stored in a separate file. The recommendation algorithm involved extracting deep features from a new image, finding the most similar images using cosine similarity, and using the ALS model to recommend hashtags with the highest dot product. The goal was to provide users with 10 accurate hashtag recommendations based on the content of their images.
