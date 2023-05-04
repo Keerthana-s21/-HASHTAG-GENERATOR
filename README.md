@@ -7,64 +7,64 @@ Google collab is sufficient to get started.
 
 #**Pre-requisites**
 Packages that are required are :
-•	numpy
+•	*numpy
 
-•	pandas 
+•	*pandas 
 
-•	matplotlib.pyplot 
+•	*matplotlib.pyplot 
 
-•	matplotlib.image 
+•	*matplotlib.image 
 
-•	PIL.Image 
+*•	PIL.Image 
 
-•	io
+*•	io
 
-•	tensorflow 
+*•	tensorflow 
 
-•	tensorflow.keras.applications.MobileNetV2
+*•	tensorflow.keras.applications.MobileNetV2
 
-•	pyspark.sql.SparkSession
+*•	pyspark.sql.SparkSession
 
-•	pyspark.ml.evaluation.RegressionEvaluator
+*•	pyspark.ml.evaluation.RegressionEvaluator
 
-•	pyspark.ml.recommendation.ALS
+*•	pyspark.ml.recommendation.ALS
 
-•	pyspark.ml.recommendation.ALSModel
+*•	pyspark.ml.recommendation.ALSModel
 
-•	sklearn.model_selection.train_test_split
+*•	sklearn.model_selection.train_test_split
 
-•	functools.reduce
+*•	functools.reduce
 
-•	os
+*•	os
 
-•	tqdm
+*•	tqdm
 
-•	scipy.spatial.distance.cosine
+*•	scipy.spatial.distance.cosine
 
-•	selenium
+*•	selenium
 
-•	time
+*•	time
 
-•	re
+*•	re
 
-•	json
+*•	json
 
-•	random
+*•	random
 
-•	Chrome and Firefox from selenium.webdriver
+*•	Chrome and Firefox from selenium.webdriver
 
-•	urlretrieve from urllib.request
+*•	urlretrieve from urllib.request
 
-•	By from selenium.webdriver.common.by
+*•	By from selenium.webdriver.common.by
 
-•	uuid4 from uuid
+*•	uuid4 from uuid
 
-•	boto3
+*•	boto3
 
-•	BytesIO from io
+*•	BytesIO from io
 
 
-•	Image from PIL
+*•	Image from PIL
 
 #**How It Works**
 The project involved scraping few Instagram images with some general hashtags like travel, fitness, etc., and storing the images in a folder named data and their details in a separate json file in a metadata folder. Hashtags from comments were also collected for modeling. Deep features were extracted from each image using MobileNetV2 and stored in a separate file. ALS model was applied to hashtag data to extract user and item features, and the dot product of each combination of features represented a recommendation score. The ALS model was stored in a separate file. The recommendation algorithm involved extracting deep features from a new image, finding the most similar images using cosine similarity, and using the ALS model to recommend hashtags with the highest dot product. The goal was to provide users with 10 accurate hashtag recommendations based on the content of their images.
