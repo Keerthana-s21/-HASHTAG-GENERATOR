@@ -7,7 +7,8 @@ Google collab is sufficient to get started.
 
 #**Pre-requisites**
 Packages that are required are :
-•	*numpy
+**
+•	numpy
 
 •	*pandas 
 
