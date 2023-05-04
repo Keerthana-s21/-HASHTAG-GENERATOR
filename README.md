@@ -7,34 +7,63 @@ Google collab is sufficient to get started.
 
 #**Pre-requisites**
 Packages that are required are :
-•	numpy 
+•	numpy
+
 •	pandas 
+
 •	matplotlib.pyplot 
+
 •	matplotlib.image 
+
 •	PIL.Image 
+
 •	io
+
 •	tensorflow 
+
 •	tensorflow.keras.applications.MobileNetV2
+
 •	pyspark.sql.SparkSession
+
 •	pyspark.ml.evaluation.RegressionEvaluator
+
 •	pyspark.ml.recommendation.ALS
+
 •	pyspark.ml.recommendation.ALSModel
+
 •	sklearn.model_selection.train_test_split
+
 •	functools.reduce
+
 •	os
+
 •	tqdm
+
 •	scipy.spatial.distance.cosine
+
 •	selenium
+
 •	time
+
 •	re
+
 •	json
+
 •	random
+
 •	Chrome and Firefox from selenium.webdriver
+
 •	urlretrieve from urllib.request
+
 •	By from selenium.webdriver.common.by
+
 •	uuid4 from uuid
+
 •	boto3
+
 •	BytesIO from io
+
+
 •	Image from PIL
 
 #**How It Works**
